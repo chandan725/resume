@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+html{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+img {
+  width: 200px;
+  border-radius: 100px;
+}
+.container {
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+table {
+  padding: 10px;
+  padding-left: 5px;
+  width: 90%;
+  row-gap: 10px;
+  float: left;
+}
+.jump-to-top {
+  float: right;
+  font-size: smaller;
+  color: #f20879c5;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo-image{
+    width: 70px;
+    object-fit:fill;
+}
+
+@media (max-width:550px) {
+  img {
+    width: 100px;
+    border-radius: 50px;
+    float: top;
+  }
+  .container {
+    font-weight: 300px;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+  }
+  .jump-to-top {
+    float: right;
+    font-size: x-small;
+    color: #f20879c5;
+  }
+  
+  .logo-image{
+    width: 50px;
+    margin: 2px; 
+    padding-right: 2px;
+    object-fit:fill;
+  }
+}
